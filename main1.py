@@ -58,6 +58,7 @@ class MyGame(arcade.Window):
         """
         Called when the user presses a mouse button.
         """
+        #when user clicks with the left mouse, the circle will turn black
         print(f"You clicked button number: {button}")
         if button == arcade.MOUSE_BUTTON_LEFT:
             self.ball.color = arcade.color.BLACK
