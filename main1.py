@@ -8,6 +8,7 @@ python -m arcade.examples.move_mouse
 
 import arcade
 
+#defines window in which animation will play
 SCREEN_WIDTH = 640
 SCREEN_HEIGHT = 480
 SCREEN_TITLE = "Move Mouse Example"
@@ -37,7 +38,7 @@ class MyGame(arcade.Window):
         # Make the mouse disappear when it is over the window.
         # So we just see our object, not the pointer.
         self.set_mouse_visible(False)
-
+        #uses built in arcade controls to create a background color
         arcade.set_background_color(arcade.color.ASH_GREY)
 
         # Create our ball
